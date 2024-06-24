@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: red
   margin: 0;
   padding: 20px;
 }
@@ -10,4 +10,45 @@ h1 {
   color: #333;
 }
 
+#listaUsuarios {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 
+}
+
+.usuario {
+  background: white;
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgrey;
+}
+
+.usuario img {
+  margin-left: 20px;
+  margin-bottom: 105px;
+}
+
+
+
+.usuario .detalles p {
+  margin: 5px 0;
+
+}
+
+span {
+  font-weight: 700;
+}
+
+
+.basicos {
+  border: 1px solid lightgrey;
+  padding: 5px;
+}
